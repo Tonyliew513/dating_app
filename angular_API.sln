@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "angular_API", "angular_API\angular_API.csproj", "{333A2757-D507-457E-9217-84FFDF71F1E0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedModel", "SharedModel\SharedModel.shproj", "{C5DD916A-DCE8-434D-B7CF-4D8B79E56CAC}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedModel\SharedModel.projitems*{333a2757-d507-457e-9217-84ffdf71f1e0}*SharedItemsImports = 5
+		SharedModel\SharedModel.projitems*{c5dd916a-dce8-434d-b7cf-4d8b79e56cac}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{333A2757-D507-457E-9217-84FFDF71F1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333A2757-D507-457E-9217-84FFDF71F1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333A2757-D507-457E-9217-84FFDF71F1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333A2757-D507-457E-9217-84FFDF71F1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80CE2634-0F3C-4DC5-B75A-5C9737BD64F1}
+	EndGlobalSection
+EndGlobal
